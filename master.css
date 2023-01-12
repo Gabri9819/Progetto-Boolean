@@ -1,0 +1,92 @@
+/* qui abbiamo selettore e attributo del body */
+
+.bodyhtml{
+    background-image: url(img/background.jpg);
+    background-position:ea center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+/* qui abbiamo selettore e attributo della pagina */
+
+.pagina{
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 30px;
+    padding-bottom: 7%;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* qui abbiamo selettore e attributo dell'header */
+
+.testa{
+    text-align: center;
+}
+
+.immagine{
+    width: 25%;
+    padding: 2%;
+}
+
+.titolo{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    margin: 0;
+}
+
+/* qui abbiamo selettore e attributo della navigazione*/
+
+nav{
+    text-align: center;
+    background-color: green;
+    padding: 1.5%;
+    border-radius: 5px;
+}
+
+/* qui abbiamo selettore e attributo del main e delle sezioni */
+
+.main{
+    margin-top: 2%;
+}
+
+.contenitore, .sezione{
+    margin-bottom: 2%;
+}
+.sezione, .viastato{
+    font-size: 25px;
+}
+
+div > .sottotitolo{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.charge1{
+    width: 30%;
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.charge2{
+    width: 50%;
+    background-color: green;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.charge3{
+    width: 5%;
+    background-color: rgb(248, 13, 5);
+    padding: 15px;
+    border-radius: 4px;
+}
